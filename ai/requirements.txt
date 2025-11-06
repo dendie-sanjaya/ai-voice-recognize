@@ -1,0 +1,8 @@
+# Menggunakan versi spesifik yang lebih baru
+#tensorflow==2.19.0
+#tensorflow==2.13.0
+librosa==0.10.1
+numpy
+sounddevice
+scipy
+pyaudio
