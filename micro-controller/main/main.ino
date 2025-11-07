@@ -44,7 +44,7 @@ void setup() {
     // 4. Alokasikan tensor
     TfLiteStatus allocate_status = interpreter->AllocateTensors();
     
-    // PERBAIKAN BUG REPORT: Menggunakan Serial.println()
+    // Menggunakan Serial.println()
     if (allocate_status != kTfLiteOk) {
         Serial.println("ERROR: Alokasi tensor gagal! Tingkatkan kTensorArenaSize.");
         return;
@@ -85,7 +85,7 @@ void loop() {
 
     if (prob_harimau > 0.8) { 
         Serial.println(">>>>> DETEKSI TIGER! <<<<<");
-    } else {
+    } else {I
         Serial.print("Not Trigger. Probabilitas Harimau: ");
         Serial.println(prob_harimau, 4); 
     }
