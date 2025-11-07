@@ -1,10 +1,10 @@
 
-# Build TinyML Model AI Voice Recognition Menggunakan TensorFlow Lite untuk Edge IoT (ESP32)
+# Build TinyML Model AI Voice Recognition Use TensorFlow Lite for Edge Limited Spec Device IoT (ESP32)
 
 This application shows how to build an AI Deep Learning model (CNN) using TensorFlow to detect Tiger and Non-Tiger sounds. The model is optimized and converted to TensorFlow Lite so it can run on edge IoT devices with limited specs, like the ESP32 microcontroller.
 
 Table of Contents
-- [Build TinyML Model AI Voice Recognition Menggunakan TensorFlow Lite untuk Edge IoT (ESP32)](#build-tinyml-model-ai-voice-recognition-menggunakan-tensorflow-lite-untuk-edge-iot-esp32)
+- [Build TinyML Model AI Voice Recognition Use TensorFlow Lite for Edge Limited Spec Device IoT (ESP32)](#build-tinyml-model-ai-voice-recognition-use-tensorflow-lite-for-edge-limited-spec-device-iot-esp32)
   - [Project Structure](#project-structure)
   - [Architecture](#architecture)
   - [Getting Started](#getting-started)
